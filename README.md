@@ -1,5 +1,5 @@
 # Netodonalds
-
+![Netodonalds](<Captura de Tela (16).png>)
 ## Descrição
 
 O **Netodonalds** é uma aplicação web de venda de lanches, permitindo que clientes escolham entre **Tapioca** ou **Cuzcuz**, adicionem recheios, visualizem o preço total e realizem pedidos. Além disso, possui um painel administrativo para consultar o histórico de compras.
