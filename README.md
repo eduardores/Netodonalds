@@ -22,7 +22,7 @@ O **Netodonalds** é uma aplicação web de venda de lanches, permitindo que cli
 -  Visualização dos dados: data, descrição do pedido e preço
 
 ---
-### FEITO
+### Feito
 -  Fábio Eduardo Rodrigues da Silva-ADS
 
 
