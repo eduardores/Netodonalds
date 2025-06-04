@@ -22,26 +22,28 @@ O **Netodonalds** é uma aplicação web de venda de lanches, permitindo que cli
 -  Visualização dos dados: data, descrição do pedido e preço
 
 ---
+### FEITO
+-  Fábio Eduardo Rodrigues da Silva-ADS
+
 
 ## Estrutura dos Arquivos
 /Netodonalds
 │
-├── imgs/                      # Imagens (logo, prints, etc.)
-│   └── logo.png                # Logo do Netodonalds
+├── imgs/                      
+│   └── logo.png                
+├── index.html                  
+├── style.css                   
+├── script.js                 
 │
-├── index.html                  # Página do cliente (loja)
-├── style.css                   # Estilo da página do cliente
-├── script.js                   # Lógica da página do cliente
+├── index_adm.html          
+├── style_adm.css              
+├── script_adm.js            
 │
-├── index_adm.html              # Página do administrador (histórico)
-├── style_adm.css               # Estilo da página do administrador
-├── script_adm.js               # Lógica da página do administrador
+├── backend/                   
+│   ├── index.js               
+│   ├── database.sql          
+│   └── package.json         
 │
-├── backend/                    # (Opcional) Pasta do backend Node.js
-│   ├── index.js                # Servidor backend
-│   ├── database.sql            # Script do banco de dados
-│   └── package.json            # Dependências do Node.js
-│
-├── README.md                   # Documentação do projeto
-└── LICENSE                     # (Opcional) Licença do projeto
+├── README.md                  
+└── LICENSE                 
 
