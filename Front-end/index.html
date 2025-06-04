@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netodonalds</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <img src="./imgs/logo.png" alt="Logo Netodonalds" class="logo">
+    <h1>Netodonalds</h1>
+  </header>
+
+  <section class="menu-section">
+    <div class="food-select">
+      <h2>Escolha sua comida:</h2>
+      <label><input type="radio" name="food" checked onchange="loadFood(1)"> Tapioca</label>
+      <label><input type="radio" name="food" onchange="loadFood(2)"> Cuzcuz</label>
+    </div>
+
+    <div class="cpf-section">
+      <label for="cpf">CPF do comprador:</label>
+      <input type="text" id="cpf" placeholder="Digite seu CPF">
+    </div>
+  </section>
+
+  <main class="content">
+    <div class="addons">
+      <h2>Escolha seus recheios:</h2>
+      <div id="addons-list"></div>
+    </div>
+
+    <div class="summary">
+      <h2>Resumo do Pedido</h2>
+      <div id="selected-addons"></div>
+      <h3>Total: R$ <span id="total-price">0.00</span></h3>
+      <button class="btn pay" onclick="makePayment()">Pagar</button>
+      <button class="btn history" onclick="openHistory()">Histórico de Compras</button>
+    </div>
+  </main>
+
+  <!-- Modal de Histórico -->
+  <div class="modal" id="historyModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeHistory()">&times;</span>
+      <h2>Histórico de Compras</h2>
+      <div class="history-results" id="history-results"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

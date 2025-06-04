@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netodonalds</title>
+  <link rel="stylesheet" href="style_new.css">
+</head>
+<body>
+
+  <nav class="top-bar">
+    <img src="./imgs/logo.png" alt="Logo Netodonalds" class="logo">
+    <h1 class="brand-name">Netodonalds</h1>
+  </nav>
+
+  <section class="form-section">
+    <div class="item-selector">
+      <h2>Escolha seu produto</h2>
+      <div class="options">
+        <label><input type="radio" name="item" onchange="loadItem(1)" checked> Tapioca</label>
+        <label><input type="radio" name="item" onchange="loadItem(2)"> Cuzcuz</label>
+      </div>
+    </div>
+
+    <div class="cpf-input">
+      <label for="cpfField">CPF:</label>
+      <input type="text" id="cpfField" placeholder="Digite seu CPF">
+    </div>
+  </section>
+
+  <main class="content-wrapper">
+    <div class="addons-panel">
+      <h2>Adicionais</h2>
+      <div id="addonsArea"></div>
+    </div>
+
+    <div class="summary-panel">
+      <h2>Resumo</h2>
+      <div id="addonsSelected"></div>
+      <div class="total">
+        Total: R$ <span id="finalValue">0.00</span>
+      </div>
+      <button class="btn-submit" onclick="makePayment()">Finalizar Pedido</button>
+    </div>
+  </main>
+
+  <script src="script_new.js"></script>
+</body>
+</html>
