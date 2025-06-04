@@ -24,4 +24,24 @@ O **Netodonalds** é uma aplicação web de venda de lanches, permitindo que cli
 ---
 
 ## Estrutura dos Arquivos
+/Netodonalds
+│
+├── imgs/                      # Imagens (logo, prints, etc.)
+│   └── logo.png                # Logo do Netodonalds
+│
+├── index.html                  # Página do cliente (loja)
+├── style.css                   # Estilo da página do cliente
+├── script.js                   # Lógica da página do cliente
+│
+├── index_adm.html              # Página do administrador (histórico)
+├── style_adm.css               # Estilo da página do administrador
+├── script_adm.js               # Lógica da página do administrador
+│
+├── backend/                    # (Opcional) Pasta do backend Node.js
+│   ├── index.js                # Servidor backend
+│   ├── database.sql            # Script do banco de dados
+│   └── package.json            # Dependências do Node.js
+│
+├── README.md                   # Documentação do projeto
+└── LICENSE                     # (Opcional) Licença do projeto
 
